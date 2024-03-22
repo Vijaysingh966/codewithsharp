@@ -1,2 +1,0 @@
-# codewithsharp
-my portfolio website 
