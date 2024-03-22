@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us |CodeWithSharp</title>
+    <link rel="shortcut icon" href=" vijay-logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href=" style.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+    .header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+      h2 {
+        color: #333;
+    }
+
+    p {
+        color: #666;
+    }
+</style>
+<body>
+    <div class="main-container">
+        <header>
+            <nav>
+                <div class="text-name">
+                    <span class="web-name"><a href="index.html"> &lt;/&gt;codewithsharp</a></span>
+                     
+                     
+                </div>
+                <ul class="nav-manu">
+                    <li> <a href="index.html" class="nav-item">Home</a> </li>
+                    <li> <a href="about.html" class="nav-item">About us</a> </li>
+                    <li> <a href="contect.html"  class="nav-item"> Contect us</a></li>
+                    <li> <a href="project.html" class="nav-item">Project</a> </li>
+                    <li> <a href="myprofile.html" class="nav-item"> my Profile</a></li> 
+                    <li class="img-con"> <a href="#" class="nav-item"><img src="/img/vijay-logo.jpeg" alt=""></a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+       <div class="page-heading header">
+            <h1 class="about-h1">{" 
+            <span class="about-text">    </span> 
+             "}</h1>
+        </div>
+        <main>
+            
+            <section>
+                <h2>Who We Are</h2>
+                <p>Welcome to our website! We are a passionate team dedicated to [your mission or purpose]. Our goal is to [describe your mission or purpose briefly].</p>
+            </section>
+    
+            <section>
+                <h2>Our Team</h2>
+                <p>We are a diverse group of individuals with a shared commitment to [describe your values or goals]. Meet the faces behind [your brand or business name]:</p>
+                <!-- Include photos and bios of your team members -->
+                <div>
+                    <img src="team-member-1.jpg" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>Position and brief bio.</p>
+                </div>
+                <div>
+                    <img src="team-member-2.jpg" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Position and brief bio.</p>
+                </div>
+                <!-- Add more team members as needed -->
+            </section>
+    
+            <section>
+                <h2>Our Mission</h2>
+                <p>At [your brand or business name], our mission is to [state your mission clearly and concisely]. We believe in [core beliefs or values] and strive to [describe your objectives or goals].</p>
+            </section>
+    
+            <section>
+                <h2>Contact Us</h2>
+                <p>If you have any questions or would like to get in touch, feel free to contact us at [your email address]. We'd love to hear from you!</p>
+            </section>
+        </main>
+    </div>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.32/dist/lenis.min.js"></script> 
+    <script src="script.js"></script>
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+    <!-- Setup and start animation! -->
+    <script>
+        let loop =true;
+        let typed = new Typed('.about-text ', {
+        strings: [' _About ',' _codewithsharp'],
+        typeSpeed: 100,
+        backSpeed:100,
+        looped:loop
+      });
+       
+    </script>
+</body>
+</html>
